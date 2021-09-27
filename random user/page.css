@@ -1,0 +1,49 @@
+.page-head img{
+    width: 100%;
+}
+
+blockquote h2{
+    font-family: 'Times New Roman', serif;
+    text-align: justify;
+    color: #666;
+    
+}
+
+blockquote h4{
+    font-family: 'Times New Roman', serif;
+    text-align: right;
+    padding: 10px;
+    color: rgb(168, 167, 167);
+}
+
+blockquote{
+    width: 60%;
+    margin: 10px auto;
+    display:block;
+    background: #fff;
+    padding: 15px 20px 15px 45px;
+    position: relative;
+    
+    text-align: justify;
+    border-left: 15px solid #0073ff;
+    border-right: 2px solid #0073ff;
+    -moz-box-shadow: 2px 2px 15px #ccc;
+    -webkit-box-shadow: 2px 2px 15px #ccc;
+    box-shadow: 2px 2px 15px #ccc;
+}
+  
+blockquote::before{
+    font-weight: bold;
+    color: #999;
+    position: absolute;
+    left: 10px;
+    top:5px;
+}
+
+.stick-img img{
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
